@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/elijah/.config/nvim'
+let g:netrw_dirhist_6='/home/elijah'
+let g:netrw_dirhist_5='/home/elijah/.config'
+let g:netrw_dirhist_4='/home/elijah/.config/nvim'
+let g:netrw_dirhist_3='/home/elijah/.config/nvim/lua/elihantman'
+let g:netrw_dirhist_2='/home/elijah/.config/nvim/lua'
+let g:netrw_dirhist_1='/home/elijah/.config/nvim'
+let g:netrw_dirhist_0='/usr/share/nvim/runtime/doc'
+let g:netrw_dirhist_9='/home/elijah/.config/nvim'
+let g:netrw_dirhist_8='/usr/share/nvim/runtime/doc'
