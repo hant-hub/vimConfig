@@ -40,12 +40,12 @@ return require('packer').startup(function(use)
             disable_when_zoomed = true -- defaults to false
         }
 
-        vim.keymap.set('n', "<Esc>h", nvim_tmux_nav.NvimTmuxNavigateLeft)
-        vim.keymap.set('n', "<Esc>j", nvim_tmux_nav.NvimTmuxNavigateDown)
-        vim.keymap.set('n', "<Esc>k", nvim_tmux_nav.NvimTmuxNavigateUp)
-        vim.keymap.set('n', "<Esc>l", nvim_tmux_nav.NvimTmuxNavigateRight)
-        vim.keymap.set('n', "<C-\\>", nvim_tmux_nav.NvimTmuxNavigateLastActive)
-        vim.keymap.set('n', "<C-Space>", nvim_tmux_nav.NvimTmuxNavigateNext)
+---        vim.keymap.set('n', "<C-h>", nvim_tmux_nav.NvimTmuxNavigateLeft)
+---        vim.keymap.set('n', "<C-j>", nvim_tmux_nav.NvimTmuxNavigateDown)
+---        vim.keymap.set('n', "<C-k>", nvim_tmux_nav.NvimTmuxNavigateUp)
+---        vim.keymap.set('n', "<C-l>", nvim_tmux_nav.NvimTmuxNavigateRight)
+---        vim.keymap.set('n', "<C-\\>", nvim_tmux_nav.NvimTmuxNavigateLastActive)
+---        vim.keymap.set('n', "<C-Space>", nvim_tmux_nav.NvimTmuxNavigateNext)
 
     end
 }
@@ -65,7 +65,6 @@ return require('packer').startup(function(use)
 			{'hrsh7th/cmp-nvim-lsp'},
 			{'L3MON4D3/LuaSnip'},
 		}
+    }
 
-
-	}
 end)
