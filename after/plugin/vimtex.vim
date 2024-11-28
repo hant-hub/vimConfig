@@ -22,6 +22,8 @@ let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 " supported backends and further explanation is provided in the documentation,
 " see ":help vimtex-compiler".
 let g:vimtex_compiler_method = 'latexrun'
+set conceallevel=2
+let g:tex_conceal='abdmg'
 
 " Most VimTeX mappings rely on localleader and this can be changed with the
 " following line. The default is usually fine and is the symbol "\".
